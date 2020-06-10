@@ -11,9 +11,15 @@ public class GameTest {
     //Game game = new Game();
 
     private Game game;
-    @BeforeAll
+    @BeforeEach
     public void setUp() {
         game = new Game();
+    }
+
+    private void roll(int pinsDown, int time) {
+        for (int i = 0; i < time; i++) {
+            game.roll(pinsDown);
+        }
     }
 
     @Test
@@ -24,14 +30,28 @@ public class GameTest {
     }
 
     @Test
-    void canScoreGame() {
+    void canScoreGameOfOnes() {
         roll(1, 20);
         assert game.score() == 20;
     }
 
-    private void roll(int pinsDown, int time) {
-        for (int i = 0; i < time; i++) {
-            game.roll(pinsDown);
-        }
+    @Test
+    public void canScoreGameUniqueSpare(){
+        game.roll(5);
+        game.roll(5);
+        roll(0,7);
+
+        assert game.score() == 10;
     }
+
+    @Test
+    public void canScoreGameSpareAndOther(){
+        game.roll(5);
+        game.roll(5);
+        game.roll(3);
+        roll(0,7);
+
+        assert game.score() == 16;
+    }
+
 }

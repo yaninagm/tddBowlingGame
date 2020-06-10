@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d2d1f61f-abc8-4965-acb7-7503ceec4ac9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bowlingGame/tdd/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bowlingGame/tdd/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bowlingGame/tdd/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bowlingGame/tdd/GameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/bowlingGame/tdd/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bowlingGame/tdd/GameTest.class" afterDir="false" />
     </list>
@@ -38,20 +39,7 @@
       <recent name="com.bowlingGame.tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
-    <configuration name="TddApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bowlingGame.tdd.TddApplication" />
-      <module name="tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bowlingGame.tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GameTest.canScoreGameSpareAndOther">
     <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
@@ -67,7 +55,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.canScoreGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.canScoreGameOfOnes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +65,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bowlingGame.tdd" />
       <option name="MAIN_CLASS_NAME" value="com.bowlingGame.tdd.GameTest" />
-      <option name="METHOD_NAME" value="canScoreGame" />
+      <option name="METHOD_NAME" value="canScoreGameOfOnes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.canScoreGameSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bowlingGame.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bowlingGame.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.bowlingGame.tdd.GameTest" />
+      <option name="METHOD_NAME" value="canScoreGameSpare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.canScoreGameSpareAndOther" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bowlingGame.tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bowlingGame.tdd" />
+      <option name="MAIN_CLASS_NAME" value="com.bowlingGame.tdd.GameTest" />
+      <option name="METHOD_NAME" value="canScoreGameSpareAndOther" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.canScoreGameSpareAndOther" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.canScoreGutterGame" />
-        <item itemvalue="JUnit.GameTest.canScoreGame" />
-        <item itemvalue="Application.TddApplication" />
+        <item itemvalue="JUnit.GameTest.canScoreGameSpare" />
+        <item itemvalue="JUnit.GameTest.canScoreGameOfOnes" />
       </list>
     </recent_temporary>
   </component>
@@ -130,22 +151,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1591649622353" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1591730206054">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1591750918140">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1591730206053" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1591730206052">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1591750918140" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1591750918139">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1591730206052" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1591730206052">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1591750918139" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1591750918136">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1591730206052" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1591730206053">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1591750918136" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1591750918139">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1591730206053" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1591750918139" />
     <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1591659074290">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -170,10 +191,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="771" y="152" width="568" height="501" key="extract.method.dialog/67.27.1299.741@67.27.1299.741" timestamp="1591658678120" />
-    <state x="380" y="175" key="run.anything.popup" timestamp="1591658724706">
+    <state x="380" y="175" key="run.anything.popup" timestamp="1591736055217">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1591658724706" />
+    <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1591736055217" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,20 +206,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/bowlingGame/tdd/GameTest.java</url>
-          <line>22</line>
+          <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/bowlingGame/tdd/GameTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="4" />
+          <line>26</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/bowlingGame/tdd/GameTest.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="5" />
+          <line>8</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tdd$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1591730318970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bowlingGame.tdd.*</FILTER>
+    </SUITE>
   </component>
 </project>
