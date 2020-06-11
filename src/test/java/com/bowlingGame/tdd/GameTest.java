@@ -45,13 +45,23 @@ public class GameTest {
     }
 
     @Test
-    public void canScoreGameSpareAndOther(){
+    public void canScoreGameSpareAndOneCase(){
         game.roll(5);
         game.roll(5);
         game.roll(3);
         roll(0,7);
 
         assert game.score() == 16;
+    }
+
+    @Test
+    public void canScoreGameSpareAndOthers(){
+        game.roll(5);
+        game.roll(5);
+        game.roll(3);
+        game.roll(0);
+        roll(1,7);
+        assert game.score() == 13+3+7;
     }
 
 }

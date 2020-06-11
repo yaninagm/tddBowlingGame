@@ -1,7 +1,6 @@
 package com.bowlingGame.tdd;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Game {
@@ -15,39 +14,34 @@ public class Game {
     }
 
     public int score() {
-        /*
+        int result = calculateFrames();
         int score = 0 ;
-        for (int i = 0; i < rolls.length ; i++) {
-            score += rolls[i];
-
+        for (int i = 0; i < frames.size() ; i++) {
+            score += frames.get(i);
         }
-        */
-
-
-        return calculateFrames(1);
+        return score;
     }
 
-    private int calculateFrames(int i) {
+    private int calculateFrames() {
         int total = 0;
-        for (int j = 0; j < 11 ; j += 2) {
-            frame = calculateFrame(j);
+        for (int frameId = 0; frameId < 11 ; frameId ++) {
+            frame = calculateFrame(frameId);
             frames.add(frame);
-            total += frame;
         }
         return total;
     }
 
-    private int calculateFrame(int i) {
-        if (i > 19){
-            return rolls[i];
+    private int calculateFrame(int frameId) {
+        int celd = frameId * 2;
+        if (celd > 19){
+            return rolls[celd];
         }
-        if (i %2 == 0 ){
-            if (rolls[i] + rolls[i+1] == 10 ){
-                frame = 10 + calculateFrame(i+2);
-            }else {
-                frame = rolls[i];
-            }
+        if (rolls[celd] + rolls[celd+1] == 10 ){
+            frame = 10 + calculateFrame((celd+2)/2);
+        }else {
+            frame = rolls[celd] + rolls[celd+1];
         }
+
         return frame;
     }
 }
